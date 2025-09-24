@@ -1,3 +1,19 @@
+
+# Waiter.app
+
+- React 18 + React Router 6 + Redux + Thunk + React-Bootstrap  
+- Dev API: json-server na porcie 3131 z prefixem `/api`  
+- Prod: jeden serwer (`server.mjs`) – serwuje build + `/api`
+
+## Dev
+```bash
+npm i
+npm run server   # backend na 3131
+npm start        # frontend na 3000
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
